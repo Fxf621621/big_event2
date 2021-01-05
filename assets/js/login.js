@@ -57,8 +57,8 @@ $(function() {
     //发起登录的Ajax请求
     // 为表单添加form——login的id
     // 监听提交事件
-    $('#form_login').on('submit', function(e) {
-        e.prevenDefault();
+    $('#form_login').submit(function(e) {
+        e.preventDefault()
         $.ajax({
             method: "POST",
             url: '/api/login',
