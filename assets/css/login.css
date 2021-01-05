@@ -20,22 +20,17 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.title_box {
+.title-box {
     height: 60px;
-    background: url(/assets/images/login_title.png) no-repeat center;
+    background: url(/assets/images/login_title.png)no-repeat center;
 }
 
-.layui-form {
-    padding: 0 30px;
+.login-box {
+    padding: 5px 40px;
 }
 
-.links {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.links a {
-    font-size: 12px;
+.reg-box {
+    padding: 0 40px;
 }
 
 .layui-form-item {
@@ -48,16 +43,15 @@ body {
     top: 10px;
 }
 
-.layui-form-item .layui-input {
+.layui-input {
     padding-left: 32px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .reg-box {
     display: none;
-}
-
-#link_reg,
-#link_login {
-    display: flex;
-    justify-content: flex-end;
 }
